@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h3>Novell Services Login</h3><br>
+        <label for="name">Username:</label>
+        <input type="text"><br><br>
+        <label for="password">Password</label>
+        <input type="password"><br><br>
+        <label for="city">City of employment:</label>
+        <input type="text"><br><br> 
+        <label for="server">Web Server:</label>
+        <select name="server" id="">
+            <option value="server">--Choose a Server--</option>
+            <option value="server">Apache Web Server</option>
+            <option value="server">Nginx</option>
+            <option value="server">LiteSpeed Web Server</option>
+            <option value="server">Node.js</option>
+        </select><br><br>
+
+        <label for="role">Please Specify Your Role:</label><br>
+        <input type="radio" name="role" value="Admin">Admin <br>
+        <input type="radio" value="Engineering" name="role">Engineer <br>
+        <input type="radio" value="Manager" name="role">Manager <br>
+        <input type="radio" value="Guest" name="role">Guest <br>
+
+        <label for="sign">Single Sign-on to the following:</label><br>
+        <input type="checkbox">mail <br>
+        <input type="checkbox">playrole <br>
+        <input type="checkbox">Self service <br>
+
+        <button>Login</button>
+        <button>Reset</button>
+    </form>
+</body>
+</html>
